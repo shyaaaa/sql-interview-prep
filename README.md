@@ -1,17 +1,27 @@
 • • • • • SQL: STRUCTURED QUERY LANGUAGE • • • • • 
 
 • SQL is used to store the databases online.
+
    (i) Table->Student,Course....etc
+   
    (ii) Course(CName,CDate..)
+   
    (iii) Department(DName,DLocation..)
+   
 
 • SQL helps to communicate with our databases
 
+
 • We have various queries
+
    (i) Select
+   
    (ii) Insert
+   
    (iii) Update
+   
    (iv) Create Table
+   
         ...etc
 
 

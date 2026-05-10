@@ -12,7 +12,7 @@ Select
 Insert
 Update
 Create Table
-etc
+...etc
 
 
 
@@ -50,24 +50,23 @@ TYPES OF COMMANDS
   Select used to retrieve data from Database
   
 
-Schema
+SCHEMA
 Defines the structure of the database, that every object of same type will follow
 create them by: Using DDL commands
 
-Keys
+KEYS
 used to uniquely identify a record in database.
 
-Types of Keys
+TYPES OF KEYS
 STUDENT_details(SName,SRollNo,SMailID,SID)
 
 a) Super Key- (SID),(SRollNo),(SMailID),(SID,SRollNo,SMailID),etc
 b) Candidate Key-Minimal Subset:(SID),(SRollNo),(SMailID)
-c)Primary Key-one of the candidate key, makes more sense.Unique and not null.
-d)Alternate Key-Other keys than primary key.
+c) Primary Key-one of the candidate key, makes more sense.Unique and not null.
+d) Alternate Key-Other keys than primary key.
 
 
-Data Types in SQL
-
+DATA TYPES IN SQL
 a)Number
     int:1,2,3
     float:decimals
@@ -79,3 +78,9 @@ b)Character
 
 c)Date and Time
     Format-DD/MM/YYYY
+
+UNIQUE CONSTRAINT 
+  This constraint will provide us the uniqueness that is no replication.
+
+
+  

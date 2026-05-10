@@ -20,9 +20,9 @@
    
    (iii) Update
    
-   (iv) Create Table
+   (iv) Create Table   ...etc
    
-        ...etc
+
 
 
 • BASIC TERMINOLOGIES
@@ -32,9 +32,11 @@
 • Record- All the enteries
 • Fields- Sno, Name,Age
 
+
 • Entities- obj which we can feel           [Rectangle]
 • Attributes- Properties                    [Oval]
 • We can form relation between entities
+
 
 
 • TYPES OF COMMANDS
@@ -59,12 +61,15 @@
   Select used to retrieve data from Database
   
 
+
 • SCHEMA
     Defines the structure of the database, that every object of same type will follow
 create them by: Using DDL commands
 
+
 • KEYS
     used to uniquely identify a record in database.
+
 
 • TYPES OF KEYS
   STUDENT_details(SName,SRollNo,SMailID,SID)
@@ -76,6 +81,7 @@ b) Candidate Key-Minimal Subset:(SID),(SRollNo),(SMailID)
 c) Primary Key-one of the candidate key, makes more sense.Unique and not null.
 
 d) Alternate Key-Other keys than primary key.
+
 
 
 • DATA TYPES IN SQL
@@ -90,6 +96,7 @@ b)Character
 
 c)Date and Time
     Format-DD/MM/YYYY
+
 
 
 • UNIQUE CONSTRAINT 
